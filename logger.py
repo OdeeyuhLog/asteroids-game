@@ -32,6 +32,8 @@ def log_state():
     frame = inspect.currentframe()
     if frame is None:
         return
+        
+    
 
     frame_back = frame.f_back
     if frame_back is None:
